@@ -1,4 +1,34 @@
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Edu QLD Beginner', cursive;
 
+    font-family: 'Kanit', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.header {
+    background-image: url(images/bg1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav h2 {
+    color: white;
 }
