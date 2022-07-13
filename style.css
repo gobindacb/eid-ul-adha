@@ -2,22 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Edu QLD Beginner', cursive;
-
+    font-family: 'Edu QLD Beginner';
     font-family: 'Kanit', sans-serif;
-
     font-family: 'Poppins', sans-serif;
-
 }
 
-.header {
+.head {
     background-image: url(images/bg1.jpg);
+    background-size: cover;
     width: 100%;
     height: 100vh;
-    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-
 }
 
 nav {
@@ -29,6 +24,63 @@ nav {
     padding-right: 8%;
 }
 
-nav h2 {
+.logo {
     color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+span {
+    font-family: cursive;
+    color: red;
+    font-size: 40px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: .4s;
+}
+
+nav ul li a:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: .4s;
+
+}
+
+.btn:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+.content {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+.content h1 {
+    font-family: 'Edu QLD Beginner';
+    font-size: 55px;
+    color: brown;
+    font-weight: 900;
 }
